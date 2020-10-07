@@ -212,3 +212,12 @@ console.log(o.b); // undefined
 ```
 
 在这种情况下，没有设置内部函数的`this`，所以它指向 global/window 对象（即非严格模式下调用的函数未设置`this`时指向的默认对象）。
+
+
+
+
+
+参考：[this - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this)
+
+
+
